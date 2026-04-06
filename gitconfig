@@ -1,0 +1,5 @@
+[user]
+	email = mail@haydfree.com
+	name = Hayden Freeman
+[core]
+	editor = nvim
