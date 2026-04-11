@@ -1,0 +1,18 @@
+BasedOnStyle: WebKit
+IndentWidth: 4
+UseTab: Never
+BreakBeforeBraces: Attach
+PointerAlignment: Right
+ColumnLimit: 80
+SpacesInParentheses: false
+SpaceAfterCStyleCast: true
+Cpp11BracedListStyle: true
+Standard: Latest
+AlwaysBreakAfterReturnType: None
+
+AllowShortIfStatementsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Always
+AllowShortLoopsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Inline
+
+

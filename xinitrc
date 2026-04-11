@@ -1,8 +1,8 @@
 # ~/.xinitrc
 
-# start ssh agent
+export GTK_THEME=Adwaita-dark
 
 st &
-dwmstatus wlan0 &
 firefox &
+dwmstatus wlan0 &
 exec dwm

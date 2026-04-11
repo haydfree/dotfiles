@@ -1,428 +1,504 @@
+copy .dotfiles/vimrc 
+vim .dotfiles/vimrc 
+vim .dotfiles/bashrc
 ls
-sudo pacman -S firefox
-sudo pacman -S fastfetch
-fastfetch
-sudo umount /mnt
-mount
-lsblk
-ls
-ls secrets/
-vim .bashrc
+rm xsel 
+ls -la
 source ~/.bashrc
-la
-ls
-ls -a | grep '^\.'; ls -A | grep -v '^\.';
-ls -a | grep '^\.'; ls -A | grep -v '^\.'; | column -t
-ls -a | grep '^\.'; ls -A | grep -v '^\.';
-ls
-vim .bashrc
-source .bashrc
-ls
-ls
-vim .bashrc
-source .bashrc
-ls
-ls
-vim .bashrc
-source .bashrc
-ls
-unalias ls
-ls
-alias
-ls
-/bin/ls 
-/bin/ls -la
-vim .bashrc
-source .bashrc
-ls
-dwmstatus
-dwmstatus
-sudo rm /usr/local/bin/dwmstatus 
-cd projects/clones/dwmstatus/
-ls
-rm dwmstatus
-ls
-make
-./dwmstatus 
-ifconfig 
-iwc
-ip link show
-./dwmstatus wlp3s0
-sudo pacman -S pulseaudio
-pactl
-vim dwmstatus.c
-ls ~
-cd
-ls
-rm -rf Downloads/
-mkdir downloads
-ls
-rm -rf Downloads/
-ls
-ls documents/
-ls documents/documents/
-rm -rf documents/documents/
-ls
-ls documents/
-ls downloads/
-ls
-ls secrets/
-ip link
-nmtui
-ping google.com
-ld
-ls
-ls calibre/
-sudo pacman -S calibre zathura pdf-poppler
-sudo pacman -Ss poppler
-sudo pacman -S calibre zathura zathura-pdf-poppler
-ls
-calibre
-ls
-rm -rf calibre/
-ls
-ls -la
-mv .xinitrc .dotfiles/
-man ln
-sudo pacman -Ss "*man*"
-sudo pacman -S man-pages
-sudo pacman -S man-db
-man ln
-ls
-ls -la
-vim .Xauthority 
-ls
-ln -sf .dotfiles/.xinitrc ~/
-ls
-ls -la
-vim .viminfo 
-ls
-ls -la
-mv .vim* .dotfiles
-ln -sf .dotfiles/.viminfo ~/
-ln -sf .dotfiles/.vimrc ~/
-ls
-ls -la
-mv .gitconfig .dotfiles
-ln -sf .dotfiles/.gitconfig ~/
-mv .gdbinit .dotfiles
-ln -sf .dotfiles/.gdbinit ~/
-ls -la
-mv .bashrc .dotfiles; ln -sf .dotfiles/.bashrc ~/
-mv .bash_* .dotfiles; ln -sf .dotfiles/.bash_* ~/
-ls -la
-ls .config/
-ls .config/calibre/
-mv .config/fontconfig .dotfiles/
-ln -sf .dotfiles/fontconfig ~/.config
-ls -la .config/
-vim .dotfiles/fontconfig/fonts.conf 
-ls -la
-ls .dotfiles/
+copy .dotfiles/vimrc 
+vim .dotfiles/bashrc
+source ~/.bashrc; copy .dotfiles/vimrc
+mkdir .dotfiles/nvim
+ls .config
+mkdir .config/nvim
+ln -sf ~/.dotfiles/nvim ~/.config/nvim
+ls -la .config
 ls -la .dotfiles/
-ls
-cd projects/c/raycast/
-l
-ls
-ls -la
-ls
-cd
-ls
-vim .dotfiles/.xinitrc 
-ip link
-fc-list 
-ls
-fc-match monospace
-vim .config/fontconfig
+rm -rf .config/nvim/
+ln -sf ~/.dotfiles/nvim ~/.config/nvim
+ls .config/
 ls -la .config/
-vim .dotfiles/fontconfig/fonts.conf 
-fc-cache -fv
-fc-match monospace
-cd .config/
-ls
-rm fontconfig 
-mkdir fontconfig
-cd fontconfig/
-ln -sf ~/.dotfiles/fontconfig/fonts.conf .
+vim .dotfiles/nvim/
+vim .dotfiles/nvim/init.lua
+/usr/bin/nvim .dotfiles/nvim/init.lua 
 ls
 ls -la
-cd ls
-fc-cache -fv
-fc-match monospace
-sudo pacman -S base-devel git gcc gdb make networkmanager iwd intel-ucode mesa linux-firmware xorg-server xorg-init libx11 libxft libxinerama freetype2 fontconfig
-sudo pacman -S base-devel git gcc gdb make networkmanager iwd intel-ucode mesa linux-firmware xorg-server libx11 libxft libxinerama freetype2 fontconfig
+vim .dotfiles/bashrc
+source ~/.bashrc
+ls -la
+ls downloads/
+ls secrets/
+ls
+fastfetch
+sudo pacman -Syu
 ls
 ls -la
-ls /dev/sd*
-lsblk
-sudo mount /sdb1 /mnt
-ls /mnt
-ls /
-sudo mount /sdb1 /mnt
-sudo mount /sdb /mnt
-sudo mount /dev/sdb1 /mnt
-ls /mnt
-cp /mnt/* .
-sudo cp -r /mnt/* .
-ls
-nmtui
-ping google.com
-ls
-cd projects/clones
-ls
-cd dwm
+cd projects/clones/pacman/
 ls
 make
-sudo make
-sudo make install
-which dwm
+make run
+ls
+vim main.c 
+nvim main.c 
+nvim ~/.dotfiles/nvim/init.lua 
+nvim ~/.dotfiles/nvim/init.lua 
+nvim ~/.dotfiles/nvim/init.lua 
+nvim ~/.dotfiles/nvim/init.lua 
+nvim main.c 
+nvim ~/.dotfiles/nvim/init.lua 
+nvim ~/.dotfiles/nvim/init.lua 
+nvim ~/.dotfiles/nvim/init.lua 
+cd 
+cd .dotfiles/nvim/
+ls
+mkdir pack/colorschemes/start
+mkdir -p pack/colorschemes/start
+ls -R
+cd pack/colorschemes/start/
+git clone https://github.com/ellisonleao/gruvbox.nvim.git
+git clone https://github.com/sainnhe/material.nvim.git
+ls
+pwd
+cd ../../../
+ls
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+copy init.lua 
+cd pack/colorschemes/start/
+ls -la
+cd ../../../
+ls
+vim init.lua 
+vim init.lua 
+vim init.lua 
+vim init.lua 
+nvim init.lua 
+nvim init.lua 
+nvim init.lua 
+cd pack/colorschemes/start/
+ls
+ls -la
+cd gruvbox.nvim/
+ls
+ls -la
+vim colors/
+vim
+vim .
+nvim ../../../../init.lua 
+vim stylua.toml 
+nvim lua/gruvbox.lua 
+vim ~/.dotfiles/bashrc
+source ~/.bashrc
+vim ../../../../init.lua 
+alias 
+nvim lua/gruvbox.lua 
+vim ~/.dotfiles/bash
+vim ~/.dotfiles/bashrc
+source ~/.bashrc
+vim ../../../../init.lua 
+unalias nvim
+unalias vim
+source ~/.bashrc
+vim ../../../../init.lua 
 cd ..
 ls
-cd dwmstatus
+git clone https://github.com/blazkowolf/gruber-darker.nvim
+cd ../../..//
 ls
-make
-sudo make install
-cd ../
+vim init.lua 
+vim init.lua 
+vim ~/projects/clones/pacman/main.c 
+cd
 ls
-cd st
-ls
-sudo make
-sudo make install
-cd ../
-ls
-which dwm
-which dwmstatus
-which st
+cd projects/clones/st
 cd ..
 ls
 cd 
 ls
-ls config/
-ls -la config/
-mv config/{.clang-format} .
-mv config/.gdbinit .
-sudo mv config/.gdbinit .
-sudo mv config/.gitconfig .
-sudo mv config/.vimrc .
-sudo mv config/.xinitrc .
 ls
-mkdir .dotfiles
-rm -rf config/
-sudo rm -rf config/
-ls
-ls clones/
-ls -la clones/
-sudo rm -rf clones/
-ls documents/
-rm documents/docs.tar.gz 
-sudo rm documents/docs.tar.gz 
-mv documents/documents/* documents/
-sudo mv documents/documents/* documents/
-find . -type d -exec chmod 755 {} \;
-sudo find . -type d -exec chmod 755 {} \;
-sudo find . -type f -exec chmod 644 {} \;
-sudo chown -R ned:ned .
-ls
-ls -la
-mkdir .config
-ls secrets/
-ls secrets/secrets/
-vim secrets/passwords.csv 
-sudo pacman -S vim
-vim secrets/passwords.csv 
-rm -rf secrets/secrets/
-ls secrets/
-rm secrets/secs.tar.gz 
-ls -la secrets/
-ls
-ls -la
-vim .xinitrc 
-ls
-startx
-sudo pacman -Ss "startx"
-sudo pacman -Ss "xinit"
-sudo pacman -S xorg-xinit
-startx
-fc-list
-fc-cache
-fc-list : family
-mkdir .config/fontconfig
-vim .config/fontconfig/fonts.conf
+vim .dotfiles/fontconfig/fonts.conf 
 fc-cache -fv
 fc-match monospace
-sudo pacman -S ttf-liberation
 ls
-fc-cache lfv
-fc-cache -fv
-fc-match monospace
-fc-list
-startx
-ls
-ls /usr/local/bin
-ls -la /usr/local/bin
-startx
-startx
+vim projects/clones/pacman/main.c 
+vim projects/clones/pacman/main.c 
 ls
 ls -la
-ls .dotfiles/
-ls -la .dotfiles/
-startx
-startx
-pactl get-sink-volume @DEFAULT_SINK@
-sudo pactl get-sink-volume @DEFAULT_SINK@
-pulseaudio start
+cd projects/clones/st
+vim config.h
+make; sudo make install
+cd ..
 ls
-rm -rf Downloads/
+cd dwm
+vim config.h
+make; sudo make install
 ls
-pulseaudio check --v
-pulseaudio --start
-sudo pactl get-sink-volume @DEFAULT_SINK@
-sudo systemctl --user status pulseaudio.service
-sudo systemctl --user status pulseaudio.socket
-sudo systemctl --user status pu
-sudo systemctl status pu
-sudo systemctl status pulseaudio.service
-sudo systemctl enable pulseaudio.service
-sudo reboot now
+cd projects/clones/pacman/
 ls
-ls -la
-rm .dotfiles/.viminfo 
-ls
-ls -la
-cd projects/clones/dwmstatus/
-ls
-mount
-mount | grep /dev/sdb
-mount | grep /dev/sda
-ls /mnt
-fastfetch
-./dwmstatus wlp3s0
-vim dwmstatus.c
-vim ~/.dotfiles/.vimrc
-vim dwmstatus.c
-ls -la ~
-cat ~/.vimrc
-vim dwmstatus.c
-git status
-git pull origin main
-sudo pacman -Ss "ssh"
-sudo pacman -S open-ssh
-sudo pacman -S openssh
-which ssh-keygen
-man ssh-keygen
-ssh-keygen
-cat ~/.ssh/id_ed25519
-cat ~/.ssh/id_ed25519.pub 
-ssh -T git@github.com
-git remote -v
-git status
-git pull origin main
-ls
-git status
-git ls-tree -r main
-ls -la
-vim .gitignore 
-ls
-rm dwmstatus
-ls
-vim dwmstatus.c
-pactl get-sink-volume @DEFAULT_SINK@
-nmtui
-ls
-cd projects/clones/dwmstatus/
-ls
-make
-./dwmstatus wlp3s0
-ip link show
-sudo pacman -S iw
-./dwmstatus wlp3s0
-ip link s
-./dwmstatus wlan0
-ls
-iwctl
-ls
-cd projects/clones/dwmstatus/
-ls
-./dwmstatus wlan0
-ls
-sudo make install
-ls
-ls -la
-ls
-cd projects/clones
-ls
-git clone https://github.com/haydfree/raycast pacman
-ls
-cd pacman
-ls
-make
-sudo pacman -S raylib
-make
-gcc main.c -o main
-make
-vim Makefile 
-sudo find / -type f -name "raylib.h"
-vim Makefile 
-make
-vim Makefile 
-La
-ls
-make
-vim Makefile 
-make
-sudo find / -type f -name "libm*"
-vim Makefile 
+vim main.c 
+vim main.c 
 make
 make run
-;ls
-s
 ls
-make clean
+ls -la
+ls
+vim main.c 
+cd 
+cd .dotfiles/nvim/
+ls -R
+ls
+cd pack
+ls
+mkdir conform
+cd conform/
+ls
+ls ..
+mkdir start
+cd start/
+git clone https://github.com/stevearc/conform.nvim.git
+ls
+which clang-format
+sudo pacman -S clang
+cd ../../
+ls
+cd ..
+ls
+vim init.lua 
+vim init.lua 
+lsblk
+lsblk
+sudo mount /dev/sdb1 /mnt
+ls /mnt
+cp /mnt/config/.clang-format ~/.dotfiles/
+vim ~/.dotfiles/.clang-format 
+vim ~/.dotfiles/clang-format 
+mv ~/.dotfiles/.clang-format ~/.dotfiles/clang-format 
+ls -la ~/.dotfiles/
+ls -la ~
+vim ~/.dotfiles/clang-format 
+vim init.lua 
+cd ~/projects/clones/pacman/
+vim main.c 
+make
+make run
+vim main.c 
+ls
+git status
+git commit -am "setup nvim conform w/ clang-format"
+ls
+git status
+git log --oneline
+ls -la
+vim main.c 
+make
+make run
+vim main.c 
+mount
+sudo umount /dev/sdb1
+mount
+ls /mnt
+ls
+vim main.c 
+git status
+git diff
+vim main.c 
+make
+vim main.c 
+make
+make run
+vim main.c 
+git commit -am "wipppppppppppp food buffer added"
+cd
 ls
 ls -la
 sudo pacman -Syu
+cd projects/clones
+git clone https://github.com/conformal/spectrwm
+cd spectrwm/
+ls
+sudo pacman -S surf
+sudo pacman -Ss surf
+cd ..
+ls
+git clone https://git.suckless.org/surf/
+cd surf
+ls
+make
+pacman -Ss glib
+pacman -Ss libglib
+cd ..
+rm -rf surf
+ls
+cd spectrwm/
+ls
+make
+vim Makefile 
+ls -la
+cd .
+cd ..
+ls
+git clone https://git.sr.ht/~dlm/hst
+which sha256sum
+man sha256sum
+git clone https://git.sr.ht/~dlm/hst
+ls
+ls ~/downloads/
+ls
+cd hst
+ls
+vim Makefile 
+make
+ls
+vim config.mk
+vim README.md 
+cd ..
+ls
+git clone https://github.com/michaelforney/wld
+cd wld
+ls
+make
+ls
+sudo make install
+which wld
+ls /usr/local/include | grep wld
+cd ..
+ls
+cd hst
+make
+sudo find / -type f -name "wld.pc"
+vim config.mk
+make
+vim config.mk
+vim Makefile 
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+make
+ls
+vim config.def.h 
+vim ../st/config.h
+vim config.def.h 
+ls -la
+make
+sudo pacman -Ss wayland-protocol
+sudo pacman -S wayland-protocols
+make
+ls -la
+sudo make install
+which st-wl
+ls /usr/local/bin
+./st-wl
+vim Makefile 
+ls
+vim Makefile 
+which wayland-scanner
+sudo pacman -S wayland
+sudo pacman -S libxkbcommon
+sudo pacman -S wlroots
+sudo pacman -S freetype2
+sudo pacman -S fontconfig
+sudo pacman -S pixman libdrm
+make
+make clean
+make
+sudo make install
+st-wl
+vim st-wl.info 
+man tic
+st-wl
+ldd ./st-wl
+sudo find / -type f -name "libwld*"
+sudo ldconfig
+ldd ./st-wl
+pacman -Ss wlroots
+pacman -Ss wlroots > out
+vim out 
+rm out
+ls
+pacman -Ss wlroots
+sudo pacman -S wlroots0.20
+sudo find / -type f -name "libwld*"
+ldd ./st-wl
+vim config.mk
+copy config.mk Makefile 
+echo PKG_CONFIG_PATH
+echo $PKG_CONFIG_PATH
+ldconfig
+sudo ldconfig
+ls /usr/local
+ls /usr/local/bin
+ls /usr/local/lib
+make
+./st-wl
+ldd ./st-wl
+ldd ./st-wl | grep libwld
+ldconfig -p | grep libwld
+readelf -d ./st-wl | grep -i rpath
+objdump -p ./st-wl | grep RPATH
+ldd ./st-wl |grep libwld
+ldconfig -p | grep libwld
+readelf -d ./st-wl | grep -i rpath
+objdump -p ./st-wl | grep RPATH
+ls /usr/local/lib
+ls -la /usr/local/lib
+vim Makefile 
+vim config.mk
+ls /usr/local/lib
+vim Makefile 
+vim config.mk
+vim config.mk
+make
+./st-wl
+copy config.mk Makefile 
+vim config.mk
+make
+./st-wl
+ls
+cd projects/clones/hst
+ls
+./st-wl
+back firefox
+cd ..
+ls
+cd spectrwm/
+ls
+make
+vim README.md 
+pacman -Ss sway
+sudo pacman -S sway
+ls
+cd projects/clones/spectrwm/
+ls
+ls -la
+cd li
+cd linux/
+ls
+make
+ls
+./spectrwm 
+sudo make install
+ls /usr/local/bin
+cd 
 ls
 ls
 fastfetch
-git status
-git remote remove origin
-git status
 ls
-ls -la
-git ls-tree -r main
-git commit -am "fixed makefile"
+pacman -Ss emacs
+sudo pacman -S emacs
+emacs
+sudo pacman -Rns emacs
+ls /usr/share/lib
+ls /usr/local/bin
+sudo rm /usr/local/bin/st-wl 
+cd projects/clones/
 ls
-vim main.c 
-git status
-git commit -am "changed map"
-git switch -c feature/food
-git status
+rm ccrm hst wld
+rm -rf ccrm hst wld
+cd 
 ls
-git ls-tree -r main
-git branch -a
-vim main.c 
+sudo find / -type f -name "*wld*"
+sudo rm -rf /usr/local/lib/libwld.* /usr/local/lib/pkgconfig/wld.pc /usr/local/include/wld
+sudo pacman -Rns wayland wlroots0.19 wlroots0.20 wayland-protocols
+sudo pacman -Rns sway
+pacman -S pfetch
+pacman -Ss pfetch
+fastfetch
+ls
+./dwmstatus wlan0
+dwmstatus wlan0
+cd projects/clones
+git clone git.suckless.org/dmenu
+git clone git.suckless.org/dmenu.git
+git clone git://git.suckless.org/dmenu
+cd dmenu/
+make
+sudo make install
+ls /usr/local/bin
+cd projects/clones/spectrwm/
+ls
+vim spectrwm.conf
+cd ..
+ls
+git clone git://git.suckless.org/surf
+cd surf
+ls
+make
+pacman -Ss libglib
+make
+vim config.mk
+pacman -Ss gcr-3
+pacman -Ss gcr
+sudo pacman -S gcr
+make
+pacman -Ss webkit2
+sudo pacman -S webkit2gtk-4.1
+make
+./surf
+ls
+ls ~/.config
+sudo pacman -Rns micro
+rm -rf ~/.config/micro
 ls
 cd
 ls
-calibre
-cat secrets/passwords.csv | grep anna
-ls downloads/
-rm downloads/annas-arch-e5aab6647937.epub 
+vim .dotfiles/spectrwm.conf
+ln -sf .dotfiles/spectrwm.conf .config/spectrwm/spectrwm.conf
+ls -la .dotfiles/
+ls -la .config/
+ln -sf .dotfiles/spectrwm.conf .config/spectrwm
+ls -la .config/
+ls -la
+rm -rf .emacs.d/
 ls
+ls -la
+ls .config/
+ls la .config/
+ls -la .config/
+rm .dotfiles/spectrwm.conf 
+mkdir .dotfiles/spectrwm
+touch .dotfiles/spectrwm/spectrwm.conf
+ls -la .config/
+ln -sf .dotfiles/spectrwm/spectrwm.conf .config/spectrwm
+ls -la .config/
+vim .dotfiles/spectrwm/spectrwm.conf 
+baraction.sh
+vim .dotfiles/spectrwm/spectrwm.conf 
+mkdir .scripts
+vim .dotfiles/bashrc
+source .bashrc
+echo $PATH
+copy .dotfiles/bashrc
+vim .dotfiles/bashrc
+source .bashrc
+echo $PATH
+ls
+vim .scripts/baraction.sh
+vim .dotfiles/spectrwm/spectrwm.conf 
+ls
+vim .dotfiles/spectrwm/spectrwm.conf 
+cd projects/clones/pacman/
+vim main.c 
+cd
+cd .dotfiles/nvim/
+ls
+ls 
+ls lua/plugins/
+vim lua/plugins/zettelkasten.lua
+vim init.lua 
+vim lua/plugins/conform.lua
+vim init.lua 
+vim init.lua 
+vim lua/plugins/colorscheme.lua
+vim init.lua 
+vim init.lua 
+ls
+vim lua/plugins/zettelkasten.lua 
+vim lua/plugins/zettelkasten.lua 
+ls
+cd 
 ls
 fastfetch
+cd .dotfiles/nvim/
 ls
-vim .bashrc
-source .bashrc
-back calibre
-vim projects/clones/dwm/config.h
-xprop
-back calibre
-xprop
-cd projects/clones/dwm
-make; sudo make install
-back calibre
-cd projects/clones/dwm
-vim config.h
-ls
-make; sudo make install
+vim lua/plugins/zettelkasten.lua 
+vim lua/plugins/zettelkasten.lua 
